@@ -1,0 +1,18 @@
+name = "mb_accel"
+description = "Detects the accelerometer used in the micro:bit board."
+licenses = ["BSD 3-Clauses"]
+
+version = "0.0.1"
+
+authors = ["Karsten Lüth"]
+maintainers = ["Karsten Lüth <kl@kloc-consulting.de>"]
+maintainers-logins = ["KLOC-Karsten"]
+
+tags = [
+  "embedded",
+  "nostd",
+]
+
+[[depends-on]]
+hal = "^0.1.0"
+
